@@ -1,0 +1,222 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* custom styles */
+body {
+    font-family: 'Schibsted Grotesk', sans-serif;
+
+}
+html {
+    font-size: 13px;
+    scroll-behavior: smooth;
+}
+
+
+.blog {
+    font-size: 24px;
+    font-weight: 600;
+    color: green;
+
+}
+
+.nav_page {
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 20px;
+    color: black;
+}
+.signup {
+    margin-top: 8rem;
+}
+.form_div  {
+    display: flex;
+    flex-direction: column;
+    width: 18rem;
+    background-color: rgba(128, 128, 128, 0.13);
+    padding: 2rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+   
+}
+.form_div > input {
+    outline: 0;
+    border: 1px solid rgba(128, 128, 128, 0.479);
+    border-radius: 5px;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+
+}
+.hero_section {
+    background-color: rgba(0, 128, 0, 0.719);
+    padding: 3rem;
+    margin-top: 3rem;
+    text-align: center;
+    color: white;
+}
+.hero_section > h1 {
+    font-size: 3rem;
+}
+.hero_section > h3 {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+}
+.flex {
+    display: flex;
+}
+.align {
+    align-items: center;
+}
+.justify {
+    justify-content: space-between;
+}
+.around {
+    justify-content: space-around;
+}
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+        padding: 1rem  ;
+
+}
+.flex70 {
+    flex: 0 1 68%;
+    /* border: 1px solid blue; */
+}
+.flex30 {
+    flex: 0 1 28%;
+    /* border: 1px solid red; */
+}
+.active {
+    color: red;
+}
+.active_underline {
+    border-bottom: 2px solid green;
+    color: green;
+}
+.yourfeed_text {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    margin-right: 1rem;
+    font-size: 1.2rem;
+
+}
+.home_div {
+    margin-top: 1rem ;
+}
+.dp {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}.heart_div {
+    border: 1px solid green;
+    height: 1.2rem;
+    width: 3rem;
+    align-items: center;
+    justify-content: space-evenly;
+    color: green;
+    margin: 1rem 0;
+}
+.title_div {
+    margin: 0 1rem;
+}
+.title_div > h3 {
+    color: green;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+.title_div > p {
+    font-size: 0.9rem;
+}
+.img_title_div {
+    margin: 1rem 0;
+}
+.body_div {
+    margin: 1rem 0;
+    line-height: 1.2;
+}
+.body_div > h2  {
+    color: black;
+    font-size: 1.3rem;
+    font-family: 600;
+}
+.body_div > h3 {
+    color: gray;
+    font-size: 1rem;
+}
+.taglist  {
+    margin-right: 1rem;
+    margin: 1rem 0;
+
+}
+.taglist > h2 {
+    border: 1px solid gray;
+    padding: 0.3rem 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.popular_tags {
+    overflow-y: auto;
+    height: 200px;
+   flex-wrap: wrap;
+   margin-top: 1rem;
+   padding: 1rem;
+   background-color: beige;
+   border-radius: 6px;
+}
+.each_tag {
+    border-radius: 4px;
+    background-color: rgba(128, 128, 128, 0.144);
+    font-size: 0.9rem;
+    padding: 0.3rem 0.6rem;
+    margin: 0.5rem;
+}
